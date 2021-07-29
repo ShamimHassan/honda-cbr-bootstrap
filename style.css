@@ -19,28 +19,26 @@ body{
 .header-details{
     padding: 50px 30px;
 }
-
-
-/* featured */
-.gray-img{
-    filter: grayscale(100%);
-}
-.text-orange{
-    color: #E76F51;
-}
-
-/* card */
-.card-img{
-    width: 210px;
-    clip-path: circle();
-}
-.colored-star{
-    color: orange;
-}
 .honda-cbr-btn{
     background-image: linear-gradient(to bottom, #EC613F 0%, #E76F51 100%);
     color: white;
     border-radius: 5px;
     padding: 9px 25px;
     border: none;
+}
+
+/* featured */
+.gray-img{
+    filter: grayscale(100%);
+}
+/* card */
+.card-img{
+    width: 210px;
+    clip-path: circle();
+}
+.text-orange{
+    color: #E76F51;
+}
+.colored-star{
+    color: orange;
 }
